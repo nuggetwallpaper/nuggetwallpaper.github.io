@@ -48,6 +48,8 @@
     "url": "https://nuggetwallpaper.github.io/bn/",
     "description": "iPhone এবং iPad-এর জন্য অ্যানিমেটেড ও মোশন ওয়ালপেপারের নির্বাচিত লাইব্রেরি, যা Nugget টুল দিয়ে iOS 17–26-এ ইনস্টল করা যায়।",
     "inLanguage": "bn",
+    "datePublished": "2026-08-17T00:00:00Z",
+    "dateModified": "2026-08-17T00:00:00Z",
     "publisher": {
       "@type": "Organization",
       "name": "Nugget Wallpaper",
@@ -214,6 +216,37 @@
     }
     .spec b { color: var(--text); }
 
+    .updated { color: var(--muted); font-size: 12.5px; margin-top: 18px; }
+
+    .facts { display: grid; gap: 14px; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); }
+    .fact {
+      background: var(--card); border: 1px solid var(--line); border-radius: var(--radius);
+      padding: 18px 20px;
+    }
+    .fact b { display: block; font-size: 26px; color: var(--accent); letter-spacing: -0.02em; }
+    .fact span { display: block; color: var(--muted); font-size: 13.5px; margin-top: 4px; }
+    .fact cite { display: block; font-style: normal; font-size: 11.5px; color: var(--accent-2); margin-top: 8px; }
+
+    .cmp-wrap { overflow-x: auto; }
+    table.cmp {
+      width: 100%; border-collapse: collapse; background: var(--card);
+      border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden;
+      font-size: 14px; min-width: 560px;
+    }
+    table.cmp th, table.cmp td { padding: 13px 16px; text-align: left; border-bottom: 1px solid var(--line); }
+    table.cmp thead th { background: var(--bg-soft); color: var(--accent); font-weight: 700; }
+    table.cmp td { color: var(--muted); }
+    table.cmp td:first-child { color: var(--text); font-weight: 600; white-space: nowrap; }
+    table.cmp tbody tr:last-child td { border-bottom: none; }
+    .cmp-best { color: var(--accent) !important; font-weight: 700; }
+    .cmp-bottom { margin-top: 18px; background: rgba(99, 230, 190, 0.08); border: 1px solid rgba(99, 230, 190, 0.3); padding: 16px 20px; border-radius: var(--radius); font-size: 15px; }
+
+    .author-box {
+      margin-top: 30px; border-top: 1px solid var(--line); padding-top: 26px;
+      font-size: 13.5px; color: var(--muted);
+    }
+    .author-box b { color: var(--text); }
+
     .steps { counter-reset: step; display: grid; gap: 14px; }
     .step {
       background: var(--card); border: 1px solid var(--line); border-radius: var(--radius);
@@ -321,6 +354,7 @@
         <div class="spec"><b>ফ্রি</b> ও প্রিমিয়াম</div>
         <div class="spec">জেলব্রেক লাগবে না</div>
       </div>
+      <p class="updated">🕒 সর্বশেষ আপডেট: ১৭ আগস্ট ২০২৬</p>
     </div>
   </section>
 
@@ -352,6 +386,21 @@
           <h3><a href="https://nugget.host/tutorial/nugget" rel="noopener">ধাপে ধাপে গাইড</a></h3>
           <p>ব্যাকআপ থেকে লাইভ অ্যানিমেটেড লক স্ক্রিন পর্যন্ত নতুনদের জন্য সহজ ইনস্টল টিউটোরিয়াল।</p>
         </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="facts" class="alt">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2>Nugget ওয়ালপেপারের মূল তথ্য</h2>
+        <p class="muted">অফিসিয়াল Nugget রিপোজিটরি এবং mwallx.com গ্যালারি থেকে নেওয়া যাচাইকৃত তথ্য।</p>
+      </div>
+      <div class="facts">
+        <div class="fact"><b>iOS 17–26</b><span>অ্যানিমেটেড ওয়ালপেপারের জন্য সমর্থিত iOS ভার্সন</span><cite>উৎস: This page</cite></div>
+        <div class="fact"><b>7,000+</b><span>ওপেন-সোর্স Nugget টুলের GitHub স্টার</span><cite>উৎস: <a href="https://github.com/leminlimez/Nugget" rel="noopener">GitHub</a></cite></div>
+        <div class="fact"><b>10</b><span>এই পেজে উপলব্ধ ভাষা</span><cite>উৎস: This page</cite></div>
+        <div class="fact"><b>ফ্রি</b><span>mwallx.com-এ প্রতিটি ওয়ালপেপার ব্রাউজ ও প্রিভিউ করতে</span><cite>উৎস: <a href="https://mwallx.com/" rel="noopener">mwallx.com</a></cite></div>
       </div>
     </div>
   </section>
@@ -427,6 +476,35 @@
     </div>
   </section>
 
+  <section id="compare">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2>Nugget ওয়ালপেপার বনাম স্টক iOS বনাম জেলব্রেক</h2>
+        <p class="muted">Apple-এর বিল্ট-ইন ওয়ালপেপার এবং সম্পূর্ণ জেলব্রেকের সাথে অ্যানিমেটেড Nugget ওয়ালপেপারের তুলনা।</p>
+      </div>
+      <div class="cmp-wrap">
+        <table class="cmp">
+          <thead>
+            <tr>
+              <th>পদ্ধতি</th>
+              <th>স্টক iOS</th>
+              <th class="cmp-best">Nugget ওয়ালপেপার</th>
+              <th>জেলব্রেক</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>জেলব্রেক প্রয়োজন</td><td>না</td><td class="cmp-best">না</td><td>হ্যাঁ</td></tr>
+            <tr><td>iOS রেঞ্জ</td><td>নেটিভ (সব ডিভাইস)</td><td class="cmp-best">শুধু iOS 17 – 26</td><td>ভিন্ন, আপডেটে ভেঙে যায়</td></tr>
+            <tr><td>অ্যানিমেটেড ওয়ালপেপার</td><td>নেটিভভাবে না</td><td class="cmp-best">হ্যাঁ, মোশন ও ইন্টারঅ্যাকটিভ</td><td>হ্যাঁ</td></tr>
+            <tr><td>ডেটা-লস ঝুঁকি</td><td>কোনোটি নয়</td><td class="cmp-best">কম — আগে ব্যাকআপ নিন</td><td>উচ্চ</td></tr>
+            <tr><td>নিরবচ্ছিন্ন রক্ষণাবেক্ষণ</td><td>কোনোটি নয়</td><td class="cmp-best">কোনোটি নয়, ইনস্টলার-ভিত্তিক</td><td>নিয়মিত</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="cmp-bottom">নিচের লাইন: iOS 17–26-এ জেলব্রেক ছাড়া অ্যানিমেটেড লক স্ক্রিন ওয়ালপেপারের জন্য, Nugget টুলসহ Nugget ওয়ালপেপারই কার্যকরী পছন্দ — শুধু আগে ব্যাকআপ নিন এবং iOS 27 এড়িয়ে চলুন।</p>
+    </div>
+  </section>
+
   <section id="faq">
     <div class="wrap">
       <div class="sec-head">
@@ -488,6 +566,7 @@
       </div>
     </div>
     <p class="copy">Nugget ওয়ালপেপার একটি কমিউনিটি প্রজেক্ট। এই সাইট Nugget ওয়ালপেপার লাইব্রেরি পরিচয় করিয়ে দেয় এবং অফিসিয়াল <a href="https://mwallx.com/" rel="noopener">mwallx.com</a> সার্ভিসে লিংক করে। Apple Inc.-এর সাথে সংশ্লিষ্ট নয়। © 2026 Nugget ওয়ালপেপার।</p>
+    <p class="author-box"><b>এই পেজ সম্পর্কে</b> Nugget ওয়ালপেপার লাইব্রেরি পরিচয় করিয়ে দেওয়া এবং অফিসিয়াল mwallx.com সার্ভিসের সাথে সংযোগকারী একটি কমিউনিটি প্রজেক্ট। Nugget টুল LeMinLimez-এর ওপেন-সোর্স, GitHub-এ AGPL-3.0 লাইসেন্সে উপলব্ধ।</p>
   </div>
 </footer>
 

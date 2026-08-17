@@ -48,6 +48,8 @@
     "url": "https://nuggetwallpaper.github.io/hi/",
     "description": "iPhone और iPad के लिए एनिमेटेड और मोशन वॉलपेपर की चयनित लाइब्रेरी, जिन्हें Nugget टूल से iOS 17–26 पर इंस्टॉल किया जा सकता है।",
     "inLanguage": "hi",
+    "datePublished": "2026-08-17T00:00:00Z",
+    "dateModified": "2026-08-17T00:00:00Z",
     "publisher": {
       "@type": "Organization",
       "name": "Nugget Wallpaper",
@@ -214,6 +216,37 @@
     }
     .spec b { color: var(--text); }
 
+    .updated { color: var(--muted); font-size: 12.5px; margin-top: 18px; }
+
+    .facts { display: grid; gap: 14px; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); }
+    .fact {
+      background: var(--card); border: 1px solid var(--line); border-radius: var(--radius);
+      padding: 18px 20px;
+    }
+    .fact b { display: block; font-size: 26px; color: var(--accent); letter-spacing: -0.02em; }
+    .fact span { display: block; color: var(--muted); font-size: 13.5px; margin-top: 4px; }
+    .fact cite { display: block; font-style: normal; font-size: 11.5px; color: var(--accent-2); margin-top: 8px; }
+
+    .cmp-wrap { overflow-x: auto; }
+    table.cmp {
+      width: 100%; border-collapse: collapse; background: var(--card);
+      border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden;
+      font-size: 14px; min-width: 560px;
+    }
+    table.cmp th, table.cmp td { padding: 13px 16px; text-align: left; border-bottom: 1px solid var(--line); }
+    table.cmp thead th { background: var(--bg-soft); color: var(--accent); font-weight: 700; }
+    table.cmp td { color: var(--muted); }
+    table.cmp td:first-child { color: var(--text); font-weight: 600; white-space: nowrap; }
+    table.cmp tbody tr:last-child td { border-bottom: none; }
+    .cmp-best { color: var(--accent) !important; font-weight: 700; }
+    .cmp-bottom { margin-top: 18px; background: rgba(99, 230, 190, 0.08); border: 1px solid rgba(99, 230, 190, 0.3); padding: 16px 20px; border-radius: var(--radius); font-size: 15px; }
+
+    .author-box {
+      margin-top: 30px; border-top: 1px solid var(--line); padding-top: 26px;
+      font-size: 13.5px; color: var(--muted);
+    }
+    .author-box b { color: var(--text); }
+
     .steps { counter-reset: step; display: grid; gap: 14px; }
     .step {
       background: var(--card); border: 1px solid var(--line); border-radius: var(--radius);
@@ -321,6 +354,7 @@
         <div class="spec"><b>मुफ्त</b> और प्रीमियम</div>
         <div class="spec">जेलब्रेक की जरूरत नहीं</div>
       </div>
+      <p class="updated">🕒 अंतिम अपडेट: 17 अगस्त 2026</p>
     </div>
   </section>
 
@@ -352,6 +386,21 @@
           <h3><a href="https://nugget.host/tutorial/nugget" rel="noopener">स्टेप-बाय-स्टेप गाइड</a></h3>
           <p>बैकअप से लाइव एनिमेटेड लॉक स्क्रीन तक का शुरुआती-अनुकूल इंस्टॉल ट्यूटोरियल।</p>
         </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="facts" class="alt">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2>Nugget वॉलपेपर के मुख्य तथ्य</h2>
+        <p class="muted">आधिकारिक Nugget रिपॉज़िटरी और mwallx.com गैलरी से लिए गए सत्यापित आंकड़े।</p>
+      </div>
+      <div class="facts">
+        <div class="fact"><b>iOS 17–26</b><span>एनिमेटेड वॉलपेपर के लिए समर्थित iOS वर्शन</span><cite>स्रोत: This page</cite></div>
+        <div class="fact"><b>7,000+</b><span>ओपन-सोर्स Nugget टूल के GitHub स्टार्स</span><cite>स्रोत: <a href="https://github.com/leminlimez/Nugget" rel="noopener">GitHub</a></cite></div>
+        <div class="fact"><b>10</b><span>इस पेज पर उपलब्ध भाषाएँ</span><cite>स्रोत: This page</cite></div>
+        <div class="fact"><b>मुफ़्त</b><span>mwallx.com पर हर वॉलपेपर ब्राउज़ और प्रीव्यू करने के लिए</span><cite>स्रोत: <a href="https://mwallx.com/" rel="noopener">mwallx.com</a></cite></div>
       </div>
     </div>
   </section>
@@ -427,6 +476,35 @@
     </div>
   </section>
 
+  <section id="compare">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2>Nugget वॉलपेपर बनाम स्टॉक iOS बनाम जेलब्रेक</h2>
+        <p class="muted">एनिमेटेड Nugget वॉलपेपर की तुलना Apple के बिल्ट-इन वॉलपेपर और पूर्ण जेलब्रेक से।</p>
+      </div>
+      <div class="cmp-wrap">
+        <table class="cmp">
+          <thead>
+            <tr>
+              <th>तरीका</th>
+              <th>स्टॉक iOS</th>
+              <th class="cmp-best">Nugget वॉलपेपर</th>
+              <th>जेलब्रेक</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>जेलब्रेक चाहिए</td><td>नहीं</td><td class="cmp-best">नहीं</td><td>हाँ</td></tr>
+            <tr><td>iOS रेंज</td><td>नेटिव (सभी डिवाइस)</td><td class="cmp-best">केवल iOS 17 – 26</td><td>भिन्न, अपडेट पर टूट जाता है</td></tr>
+            <tr><td>एनिमेटेड वॉलपेपर</td><td>नेटिव रूप से नहीं</td><td class="cmp-best">हाँ, मोशन और इंटरैक्टिव</td><td>हाँ</td></tr>
+            <tr><td>डेटा-लॉस जोखिम</td><td>कोई नहीं</td><td class="cmp-best">कम — पहले बैकअप लें</td><td>उच्च</td></tr>
+            <tr><td>निरंतर रखरखाव</td><td>कोई नहीं</td><td class="cmp-best">कोई नहीं, इंस्टॉलर-आधारित</td><td>लगातार</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="cmp-bottom">निष्कर्ष: iOS 17–26 पर बिना जेलब्रेक एनिमेटेड लॉक स्क्रीन वॉलपेपर के लिए, Nugget टूल के साथ Nugget वॉलपेपर ही व्यावहारिक विकल्प है — बस पहले बैकअप लें और iOS 27 से बचें।</p>
+    </div>
+  </section>
+
   <section id="faq">
     <div class="wrap">
       <div class="sec-head">
@@ -488,6 +566,7 @@
       </div>
     </div>
     <p class="copy">Nugget वॉलपेपर एक कम्युनिटी प्रोजेक्ट है। यह साइट Nugget वॉलपेपर लाइब्रेरी का परिचय देती है और आधिकारिक <a href="https://mwallx.com/" rel="noopener">mwallx.com</a> सेवा से लिंक करती है। Apple Inc. से संबद्ध नहीं। © 2026 Nugget वॉलपेपर।</p>
+    <p class="author-box"><b>इस पेज के बारे में</b> नugget वॉलपेपर लाइब्रेरी का परिचय देने और आधिकारिक mwallx.com सेवा से जोड़ने वाला एक कम्युनिटी प्रोजेक्ट। Nugget टूल LeMinLimez द्वारा ओपन-सोर्स है, GitHub पर AGPL-3.0 लाइसेंस के तहत उपलब्ध।</p>
   </div>
 </footer>
 

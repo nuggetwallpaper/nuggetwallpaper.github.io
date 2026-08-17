@@ -48,6 +48,8 @@
     "url": "https://nuggetwallpaper.github.io/ur/",
     "description": "آئی فون اور آئی پیڈ کے لیے اینیمیٹڈ اور موشن وال پیپرز کی منتخب لائبریری، جنہیں Nugget ٹول سے iOS 17–26 پر انسٹال کیا جا سکتا ہے۔",
     "inLanguage": "ur",
+    "datePublished": "2026-08-17T00:00:00Z",
+    "dateModified": "2026-08-17T00:00:00Z",
     "publisher": {
       "@type": "Organization",
       "name": "Nugget Wallpaper",
@@ -214,6 +216,37 @@
     }
     .spec b { color: var(--text); }
 
+    .updated { color: var(--muted); font-size: 12.5px; margin-top: 18px; }
+
+    .facts { display: grid; gap: 14px; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); }
+    .fact {
+      background: var(--card); border: 1px solid var(--line); border-radius: var(--radius);
+      padding: 18px 20px;
+    }
+    .fact b { display: block; font-size: 26px; color: var(--accent); letter-spacing: -0.02em; }
+    .fact span { display: block; color: var(--muted); font-size: 13.5px; margin-top: 4px; }
+    .fact cite { display: block; font-style: normal; font-size: 11.5px; color: var(--accent-2); margin-top: 8px; }
+
+    .cmp-wrap { overflow-x: auto; }
+    table.cmp {
+      width: 100%; border-collapse: collapse; background: var(--card);
+      border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden;
+      font-size: 14px; min-width: 560px;
+    }
+    table.cmp th, table.cmp td { padding: 13px 16px; text-align: left; border-bottom: 1px solid var(--line); }
+    table.cmp thead th { background: var(--bg-soft); color: var(--accent); font-weight: 700; }
+    table.cmp td { color: var(--muted); }
+    table.cmp td:first-child { color: var(--text); font-weight: 600; white-space: nowrap; }
+    table.cmp tbody tr:last-child td { border-bottom: none; }
+    .cmp-best { color: var(--accent) !important; font-weight: 700; }
+    .cmp-bottom { margin-top: 18px; background: rgba(99, 230, 190, 0.08); border: 1px solid rgba(99, 230, 190, 0.3); padding: 16px 20px; border-radius: var(--radius); font-size: 15px; }
+
+    .author-box {
+      margin-top: 30px; border-top: 1px solid var(--line); padding-top: 26px;
+      font-size: 13.5px; color: var(--muted);
+    }
+    .author-box b { color: var(--text); }
+
     .steps { counter-reset: step; display: grid; gap: 14px; }
     .step {
       background: var(--card); border: 1px solid var(--line); border-radius: var(--radius);
@@ -321,6 +354,7 @@
         <div class="spec"><b>مفت</b> اور پریمیم</div>
         <div class="spec">جیل بریک کی ضرورت نہیں</div>
       </div>
+      <p class="updated">🕒 آخری اپ ڈیٹ: 17 اگست 2026</p>
     </div>
   </section>
 
@@ -352,6 +386,21 @@
           <h3><a href="https://nugget.host/tutorial/nugget" rel="noopener">مرحلہ وار گائیڈ</a></h3>
           <p>بیک اپ سے لائیو اینیمیٹڈ لاک اسکرین تک ابتدائی دوستانہ انسٹال ٹیوٹوریل۔</p>
         </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="facts" class="alt">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2>Nugget وال پیپر کے اہم حقائق</h2>
+        <p class="muted">یہ تصدیق شدہ اعداد سرکاری Nugget ریپوزیٹری اور mwallx.com گیلری سے لیے گئے ہیں۔</p>
+      </div>
+      <div class="facts">
+        <div class="fact"><b>iOS 17–26</b><span>متحرک وال پیپرز کے لیے معاونت یافتہ iOS ورژن</span><cite>ماخذ: This page</cite></div>
+        <div class="fact"><b>7,000+</b><span>اوپن سورس Nugget ٹول کے GitHub ستارے</span><cite>ماخذ: <a href="https://github.com/leminlimez/Nugget" rel="noopener">GitHub</a></cite></div>
+        <div class="fact"><b>10</b><span>اس صفحے پر دستیاب زبانیں</span><cite>ماخذ: This page</cite></div>
+        <div class="fact"><b>مفت</b><span>mwallx.com پر ہر وال پیپر براؤز اور پیش نظارہ کرنے کے لیے</span><cite>ماخذ: <a href="https://mwallx.com/" rel="noopener">mwallx.com</a></cite></div>
       </div>
     </div>
   </section>
@@ -427,6 +476,35 @@
     </div>
   </section>
 
+  <section id="compare">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2>Nugget وال پیپر بمقابلہ عام iOS بمقابلہ جیل بریک</h2>
+        <p class="muted">Apple کے بلٹ ان وال پیپر اور مکمل جیل بریک کے ساتھ متحرک Nugget وال پیپرز کا موازنہ۔</p>
+      </div>
+      <div class="cmp-wrap">
+        <table class="cmp">
+          <thead>
+            <tr>
+              <th>طریقہ</th>
+              <th>عام iOS</th>
+              <th class="cmp-best">Nugget وال پیپر</th>
+              <th>جیل بریک</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>جیل بریک درکار</td><td>نہیں</td><td class="cmp-best">نہیں</td><td>ہاں</td></tr>
+            <tr><td>iOS رینج</td><td>عام (تمام آلات)</td><td class="cmp-best">صرف iOS 17 – 26</td><td>مختلف، اپ ڈیٹس سے ٹوٹ جاتا ہے</td></tr>
+            <tr><td>متحرک وال پیپرز</td><td>عام طور پر نہیں</td><td class="cmp-best">ہاں، موشن اور انٹرایکٹو</td><td>ہاں</td></tr>
+            <tr><td>ڈیٹا نقصان کا خطرہ</td><td>کوئی نہیں</td><td class="cmp-best">کم — پہلے بیک اپ لیں</td><td>زیادہ</td></tr>
+            <tr><td>مسلسل دیکھ بھال</td><td>کوئی نہیں</td><td class="cmp-best">کوئی نہیں، انسٹالر پر مبنی</td><td>مستقل</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="cmp-bottom">خلاصہ: iOS 17–26 پر بغیر جیل بریک متحرک لاک اسکرین وال پیپرز کے لیے، Nugget ٹول کے ساتھ Nugget وال پیپر ہی عملی انتخاب ہے — بس پہلے بیک اپ لیں اور iOS 27 سے گریز کریں۔</p>
+    </div>
+  </section>
+
   <section id="faq">
     <div class="wrap">
       <div class="sec-head">
@@ -488,6 +566,7 @@
       </div>
     </div>
     <p class="copy">Nugget وال پیپر ایک کمیونٹی پروجیکٹ ہے۔ یہ سائٹ Nugget وال پیپر لائبریری کا تعارف کراتی ہے اور سرکاری <a href="https://mwallx.com/" rel="noopener">mwallx.com</a> سروس سے لنک کرتی ہے۔ Apple Inc. سے منسلک نہیں۔ © 2026 Nugget وال پیپر۔</p>
+    <p class="author-box"><b>اس صفحے کے بارے میں</b> یہ ایک کمیونٹی پروجیکٹ ہے جو Nugget وال پیپر لائبریری کا تعارف کراتا ہے اور سرکاری mwallx.com سروس سے لنک کرتا ہے۔ Nugget ٹول LeMinLimez کا اوپن سورس ہے، GitHub پر AGPL-3.0 لائسنس کے تحت دستیاب ہے۔</p>
   </div>
 </footer>
 

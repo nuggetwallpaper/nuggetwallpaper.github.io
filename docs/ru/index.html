@@ -48,6 +48,8 @@
     "url": "https://nuggetwallpaper.github.io/ru/",
     "description": "Подборка анимированных и живых обоев для iPhone и iPad, устанавливаемых на iOS 17–26 с помощью инструмента Nugget.",
     "inLanguage": "ru",
+    "datePublished": "2026-08-17T00:00:00Z",
+    "dateModified": "2026-08-17T00:00:00Z",
     "publisher": {
       "@type": "Organization",
       "name": "Nugget Wallpaper",
@@ -214,6 +216,37 @@
     }
     .spec b { color: var(--text); }
 
+    .updated { color: var(--muted); font-size: 12.5px; margin-top: 18px; }
+
+    .facts { display: grid; gap: 14px; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); }
+    .fact {
+      background: var(--card); border: 1px solid var(--line); border-radius: var(--radius);
+      padding: 18px 20px;
+    }
+    .fact b { display: block; font-size: 26px; color: var(--accent); letter-spacing: -0.02em; }
+    .fact span { display: block; color: var(--muted); font-size: 13.5px; margin-top: 4px; }
+    .fact cite { display: block; font-style: normal; font-size: 11.5px; color: var(--accent-2); margin-top: 8px; }
+
+    .cmp-wrap { overflow-x: auto; }
+    table.cmp {
+      width: 100%; border-collapse: collapse; background: var(--card);
+      border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden;
+      font-size: 14px; min-width: 560px;
+    }
+    table.cmp th, table.cmp td { padding: 13px 16px; text-align: left; border-bottom: 1px solid var(--line); }
+    table.cmp thead th { background: var(--bg-soft); color: var(--accent); font-weight: 700; }
+    table.cmp td { color: var(--muted); }
+    table.cmp td:first-child { color: var(--text); font-weight: 600; white-space: nowrap; }
+    table.cmp tbody tr:last-child td { border-bottom: none; }
+    .cmp-best { color: var(--accent) !important; font-weight: 700; }
+    .cmp-bottom { margin-top: 18px; background: rgba(99, 230, 190, 0.08); border: 1px solid rgba(99, 230, 190, 0.3); padding: 16px 20px; border-radius: var(--radius); font-size: 15px; }
+
+    .author-box {
+      margin-top: 30px; border-top: 1px solid var(--line); padding-top: 26px;
+      font-size: 13.5px; color: var(--muted);
+    }
+    .author-box b { color: var(--text); }
+
     .steps { counter-reset: step; display: grid; gap: 14px; }
     .step {
       background: var(--card); border: 1px solid var(--line); border-radius: var(--radius);
@@ -321,6 +354,7 @@
         <div class="spec"><b>Бесплатно</b> и премиум</div>
         <div class="spec">Без джейлбрейка</div>
       </div>
+      <p class="updated">🕒 Обновлено: 17 августа 2026</p>
     </div>
   </section>
 
@@ -352,6 +386,21 @@
           <h3><a href="https://nugget.host/tutorial/nugget" rel="noopener">Пошаговое руководство</a></h3>
           <p>Простой урок по установке для новичков — от резервной копии до живого экрана блокировки.</p>
         </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="facts" class="alt">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2>Ключевые факты о Nugget wallpaper</h2>
+        <p class="muted">Проверенные цифры из официального репозитория Nugget и галереи mwallx.com.</p>
+      </div>
+      <div class="facts">
+        <div class="fact"><b>iOS 17–26</b><span>версий iOS поддерживают анимированные обои</span><cite>Источник: This page</cite></div>
+        <div class="fact"><b>7,000+</b><span>звёзд GitHub у open source инструмента Nugget</span><cite>Источник: <a href="https://github.com/leminlimez/Nugget" rel="noopener">GitHub</a></cite></div>
+        <div class="fact"><b>10</b><span>языков доступно на этой странице</span><cite>Источник: This page</cite></div>
+        <div class="fact"><b>Бесплатно</b><span>просматривать и предпросматривать каждые обои на mwallx.com</span><cite>Источник: <a href="https://mwallx.com/" rel="noopener">mwallx.com</a></cite></div>
       </div>
     </div>
   </section>
@@ -427,6 +476,35 @@
     </div>
   </section>
 
+  <section id="compare">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2>Nugget wallpaper против стандартного iOS и джейлбрейка</h2>
+        <p class="muted">Как анимированные Nugget обои сравниваются со встроенными обоями Apple и полным джейлбрейком.</p>
+      </div>
+      <div class="cmp-wrap">
+        <table class="cmp">
+          <thead>
+            <tr>
+              <th>Подход</th>
+              <th>Стандартный iOS</th>
+              <th class="cmp-best">Nugget wallpaper</th>
+              <th>Джейлбрейк</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>Нужен джейлбрейк</td><td>Нет</td><td class="cmp-best">Нет</td><td>Да</td></tr>
+            <tr><td>Версии iOS</td><td>Нативные (все устройства)</td><td class="cmp-best">Только iOS 17 – 26</td><td>По-разному, ломается от обновлений</td></tr>
+            <tr><td>Анимированные обои</td><td>Нет, не нативно</td><td class="cmp-best">Да, движение и интерактив</td><td>Да</td></tr>
+            <tr><td>Риск потери данных</td><td>Нет</td><td class="cmp-best">Низкий — сделайте резервную копию</td><td>Высокий</td></tr>
+            <tr><td>Постоянное обслуживание</td><td>Нет</td><td class="cmp-best">Нет, на основе установщика</td><td>Постоянное</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="cmp-bottom">Итог: для анимированных обоев на экране блокировки без джейлбрейка на iOS 17–26 Nugget wallpaper с инструментом Nugget — практичный выбор: сделайте резервную копию и избегайте iOS 27.</p>
+    </div>
+  </section>
+
   <section id="faq">
     <div class="wrap">
       <div class="sec-head">
@@ -488,6 +566,7 @@
       </div>
     </div>
     <p class="copy">Nugget wallpaper — это общественный проект. Этот сайт знакомит с библиотекой Nugget wallpaper и ведёт на официальный сервис <a href="https://mwallx.com/" rel="noopener">mwallx.com</a>. Не аффилирован с Apple Inc. © 2026 Nugget Wallpaper.</p>
+    <p class="author-box"><b>Об этой странице</b> Это сообщество проект, который знакомит с библиотекой Nugget wallpaper и ведёт к официальному сервису mwallx.com. Инструмент Nugget имеет открытый исходный код, автор LeMinLimez, доступен на GitHub под лицензией AGPL-3.0.</p>
   </div>
 </footer>
 

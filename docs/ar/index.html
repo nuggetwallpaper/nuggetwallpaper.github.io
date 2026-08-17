@@ -48,6 +48,8 @@
     "url": "https://nuggetwallpaper.github.io/ar/",
     "description": "مكتبة مختارة من الخلفيات المتحركة والحيوية لآيفون وآيباد، قابلة للتثبيت على iOS 17–26 باستخدام أداة Nugget.",
     "inLanguage": "ar",
+    "datePublished": "2026-08-17T00:00:00Z",
+    "dateModified": "2026-08-17T00:00:00Z",
     "publisher": {
       "@type": "Organization",
       "name": "Nugget Wallpaper",
@@ -214,6 +216,37 @@
     }
     .spec b { color: var(--text); }
 
+    .updated { color: var(--muted); font-size: 12.5px; margin-top: 18px; }
+
+    .facts { display: grid; gap: 14px; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); }
+    .fact {
+      background: var(--card); border: 1px solid var(--line); border-radius: var(--radius);
+      padding: 18px 20px;
+    }
+    .fact b { display: block; font-size: 26px; color: var(--accent); letter-spacing: -0.02em; }
+    .fact span { display: block; color: var(--muted); font-size: 13.5px; margin-top: 4px; }
+    .fact cite { display: block; font-style: normal; font-size: 11.5px; color: var(--accent-2); margin-top: 8px; }
+
+    .cmp-wrap { overflow-x: auto; }
+    table.cmp {
+      width: 100%; border-collapse: collapse; background: var(--card);
+      border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden;
+      font-size: 14px; min-width: 560px;
+    }
+    table.cmp th, table.cmp td { padding: 13px 16px; text-align: left; border-bottom: 1px solid var(--line); }
+    table.cmp thead th { background: var(--bg-soft); color: var(--accent); font-weight: 700; }
+    table.cmp td { color: var(--muted); }
+    table.cmp td:first-child { color: var(--text); font-weight: 600; white-space: nowrap; }
+    table.cmp tbody tr:last-child td { border-bottom: none; }
+    .cmp-best { color: var(--accent) !important; font-weight: 700; }
+    .cmp-bottom { margin-top: 18px; background: rgba(99, 230, 190, 0.08); border: 1px solid rgba(99, 230, 190, 0.3); padding: 16px 20px; border-radius: var(--radius); font-size: 15px; }
+
+    .author-box {
+      margin-top: 30px; border-top: 1px solid var(--line); padding-top: 26px;
+      font-size: 13.5px; color: var(--muted);
+    }
+    .author-box b { color: var(--text); }
+
     .steps { counter-reset: step; display: grid; gap: 14px; }
     .step {
       background: var(--card); border: 1px solid var(--line); border-radius: var(--radius);
@@ -321,6 +354,7 @@
         <div class="spec"><b>مجاني</b> ومميز</div>
         <div class="spec">بدون كسر حماية</div>
       </div>
+      <p class="updated">🕒 آخر تحديث: 17 أغسطس 2026</p>
     </div>
   </section>
 
@@ -352,6 +386,21 @@
           <h3><a href="https://nugget.host/tutorial/nugget" rel="noopener">دليل خطوة بخطوة</a></h3>
           <p>دليل تثبيت مناسب للمبتدئين، من النسخ الاحتياطي إلى شاشة قفل متحركة.</p>
         </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="facts" class="alt">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2>حقائق أساسية عن Nugget wallpaper</h2>
+        <p class="muted">أرقام موثّقة مأخوذة من مستودع Nugget الرسمي ومعرض mwallx.com.</p>
+      </div>
+      <div class="facts">
+        <div class="fact"><b>iOS 17–26</b><span>إصدارات iOS المدعومة للخلفيات المتحركة</span><cite>المصدر: This page</cite></div>
+        <div class="fact"><b>7,000+</b><span>نجمة على GitHub لأداة Nugget مفتوحة المصدر</span><cite>المصدر: <a href="https://github.com/leminlimez/Nugget" rel="noopener">GitHub</a></cite></div>
+        <div class="fact"><b>10</b><span>لغة متاحة في هذه الصفحة</span><cite>المصدر: This page</cite></div>
+        <div class="fact"><b>مجاني</b><span>لتصفح ومعاينة كل خلفية على mwallx.com</span><cite>المصدر: <a href="https://mwallx.com/" rel="noopener">mwallx.com</a></cite></div>
       </div>
     </div>
   </section>
@@ -427,6 +476,35 @@
     </div>
   </section>
 
+  <section id="compare">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2>Nugget wallpaper مقابل iOS الأصلي وجيلبريك</h2>
+        <p class="muted">كيف تُقارن خلفيات Nugget المتحركة بخلفية Apple المدمجة وبعملية جيلبريك كاملة.</p>
+      </div>
+      <div class="cmp-wrap">
+        <table class="cmp">
+          <thead>
+            <tr>
+              <th>الطريقة</th>
+              <th>iOS الأصلي</th>
+              <th class="cmp-best">Nugget wallpaper</th>
+              <th>جيلبريك</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>يتطلب جيلبريك</td><td>لا</td><td class="cmp-best">لا</td><td>نعم</td></tr>
+            <tr><td>نطاق iOS</td><td>أصلي (كل الأجهزة)</td><td class="cmp-best">iOS 17 – 26 فقط</td><td>متغير، يتعطل مع التحديثات</td></tr>
+            <tr><td>خلفيات متحركة</td><td>ليس أصلياً</td><td class="cmp-best">نعم، حركة وتفاعلية</td><td>نعم</td></tr>
+            <tr><td>خطر فقدان البيانات</td><td>لا يوجد</td><td class="cmp-best">منخفض — انسخ احتياطياً أولاً</td><td>مرتفع</td></tr>
+            <tr><td>صيانة مستمرة</td><td>لا توجد</td><td class="cmp-best">لا توجد، تعتمد على المثبّت</td><td>مستمرة</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="cmp-bottom">الخلاصة: لخلفيات قفل متحركة دون جيلبريك على iOS 17–26، يُعد Nugget wallpaper مع أداة Nugget الخيار العملي — فقط انسخ جهازك احتياطياً وتجنب iOS 27.</p>
+    </div>
+  </section>
+
   <section id="faq">
     <div class="wrap">
       <div class="sec-head">
@@ -488,6 +566,7 @@
       </div>
     </div>
     <p class="copy">Nugget wallpaper مشروع مجتمعي. يعرّف هذا الموقع بمكتبة Nugget wallpaper ويربط بالخدمة الرسمية <a href="https://mwallx.com/" rel="noopener">mwallx.com</a>. غير تابع لشركة Apple Inc. © 2026 Nugget Wallpaper.</p>
+    <p class="author-box"><b>حول هذه الصفحة</b> مشروع مجتمعي يعرّف بمكتبة Nugget wallpaper ويربط بالخدمة الرسمية mwallx.com. أداة Nugget مفتوحة المصدر من LeMinLimez، متاحة على GitHub بترخيص AGPL-3.0.</p>
   </div>
 </footer>
 

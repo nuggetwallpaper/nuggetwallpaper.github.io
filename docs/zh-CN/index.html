@@ -48,6 +48,8 @@
     "url": "https://nuggetwallpaper.github.io/zh-CN/",
     "description": "精选的 iPhone 和 iPad 动画与动态壁纸库，可使用 Nugget 工具在 iOS 17–26 上安装。",
     "inLanguage": "zh-CN",
+    "datePublished": "2026-08-17T00:00:00Z",
+    "dateModified": "2026-08-17T00:00:00Z",
     "publisher": {
       "@type": "Organization",
       "name": "Nugget Wallpaper",
@@ -214,6 +216,37 @@
     }
     .spec b { color: var(--text); }
 
+    .updated { color: var(--muted); font-size: 12.5px; margin-top: 18px; }
+
+    .facts { display: grid; gap: 14px; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); }
+    .fact {
+      background: var(--card); border: 1px solid var(--line); border-radius: var(--radius);
+      padding: 18px 20px;
+    }
+    .fact b { display: block; font-size: 26px; color: var(--accent); letter-spacing: -0.02em; }
+    .fact span { display: block; color: var(--muted); font-size: 13.5px; margin-top: 4px; }
+    .fact cite { display: block; font-style: normal; font-size: 11.5px; color: var(--accent-2); margin-top: 8px; }
+
+    .cmp-wrap { overflow-x: auto; }
+    table.cmp {
+      width: 100%; border-collapse: collapse; background: var(--card);
+      border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden;
+      font-size: 14px; min-width: 560px;
+    }
+    table.cmp th, table.cmp td { padding: 13px 16px; text-align: left; border-bottom: 1px solid var(--line); }
+    table.cmp thead th { background: var(--bg-soft); color: var(--accent); font-weight: 700; }
+    table.cmp td { color: var(--muted); }
+    table.cmp td:first-child { color: var(--text); font-weight: 600; white-space: nowrap; }
+    table.cmp tbody tr:last-child td { border-bottom: none; }
+    .cmp-best { color: var(--accent) !important; font-weight: 700; }
+    .cmp-bottom { margin-top: 18px; background: rgba(99, 230, 190, 0.08); border: 1px solid rgba(99, 230, 190, 0.3); padding: 16px 20px; border-radius: var(--radius); font-size: 15px; }
+
+    .author-box {
+      margin-top: 30px; border-top: 1px solid var(--line); padding-top: 26px;
+      font-size: 13.5px; color: var(--muted);
+    }
+    .author-box b { color: var(--text); }
+
     .steps { counter-reset: step; display: grid; gap: 14px; }
     .step {
       background: var(--card); border: 1px solid var(--line); border-radius: var(--radius);
@@ -321,6 +354,7 @@
         <div class="spec"><b>免费</b> 与高级</div>
         <div class="spec">无需越狱</div>
       </div>
+      <p class="updated">🕒 最后更新：2026 年 8 月 17 日</p>
     </div>
   </section>
 
@@ -352,6 +386,21 @@
           <h3><a href="https://nugget.host/tutorial/nugget" rel="noopener">分步教程</a></h3>
           <p>从备份到动态锁屏的入门友好安装教程。</p>
         </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="facts" class="alt">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2>Nugget 壁纸核心数据</h2>
+        <p class="muted">以下数据均来自官方的 Nugget 代码仓库与 mwallx.com 壁纸库。</p>
+      </div>
+      <div class="facts">
+        <div class="fact"><b>iOS 17–26</b><span>支持动画壁纸的 iOS 版本</span><cite>来源: This page</cite></div>
+        <div class="fact"><b>7,000+</b><span>开源 Nugget 工具在 GitHub 上的 Star 数</span><cite>来源: <a href="https://github.com/leminlimez/Nugget" rel="noopener">GitHub</a></cite></div>
+        <div class="fact"><b>10</b><span>本页提供的语言版本数量</span><cite>来源: This page</cite></div>
+        <div class="fact"><b>免费</b><span>即可在 mwallx.com 浏览和预览每一款壁纸</span><cite>来源: <a href="https://mwallx.com/" rel="noopener">mwallx.com</a></cite></div>
       </div>
     </div>
   </section>
@@ -427,6 +476,35 @@
     </div>
   </section>
 
+  <section id="compare">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2>Nugget 壁纸 vs 原生 iOS vs 越狱</h2>
+        <p class="muted">对比 Nugget 动画壁纸、Apple 自带壁纸与完整越狱的区别。</p>
+      </div>
+      <div class="cmp-wrap">
+        <table class="cmp">
+          <thead>
+            <tr>
+              <th>方案</th>
+              <th>原生 iOS</th>
+              <th class="cmp-best">Nugget 壁纸</th>
+              <th>越狱</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>需要越狱</td><td>不需要</td><td class="cmp-best">不需要</td><td>需要</td></tr>
+            <tr><td>系统版本</td><td>原生（所有设备）</td><td class="cmp-best">仅 iOS 17 – 26</td><td>视情况而定，更新后会失效</td></tr>
+            <tr><td>动画壁纸</td><td>原生不支持</td><td class="cmp-best">支持，动态与交互</td><td>支持</td></tr>
+            <tr><td>数据丢失风险</td><td>无</td><td class="cmp-best">较低 —— 请先备份</td><td>较高</td></tr>
+            <tr><td>长期维护</td><td>无需</td><td class="cmp-best">无需，基于安装工具</td><td>持续需要</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="cmp-bottom">结论：如果你想要 iOS 17–26 上无需越狱的动画锁屏壁纸，使用 Nugget 工具安装 Nugget 壁纸就是最实用的选择 —— 只需先备份设备并避开 iOS 27。</p>
+    </div>
+  </section>
+
   <section id="faq">
     <div class="wrap">
       <div class="sec-head">
@@ -488,6 +566,7 @@
       </div>
     </div>
     <p class="copy">Nugget 壁纸是一个社区项目。本网站介绍 Nugget 壁纸库，并链接到官方 <a href="https://mwallx.com/" rel="noopener">mwallx.com</a> 服务。与 Apple Inc. 无关。© 2026 Nugget 壁纸。</p>
+    <p class="author-box"><b>关于本页</b> 本页是介绍 Nugget 壁纸库并链接到官方 mwallx.com 服务的社区项目。Nugget 工具由 LeMinLimez 开源，在 GitHub 上以 AGPL-3.0 许可发布。</p>
   </div>
 </footer>
 

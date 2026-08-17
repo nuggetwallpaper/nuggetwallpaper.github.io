@@ -1,0 +1,28 @@
+# Nugget Wallpaper
+
+> Nugget Wallpaper is a curated library of animated, motion and dynamic wallpapers for iPhone and iPad, installed with the open-source Nugget tool. Supports iOS and iPadOS 17 through 26 without a jailbreak. The full browseable gallery, previews and downloads live on mwallx.com.
+
+## Key pages
+
+- [Nugget Wallpaper (English)](https://nuggetwallpaper.github.io/): What Nugget Wallpaper is, how to install animated wallpapers with the Nugget tool, and links to the wallpaper library.
+- [简体中文](https://nuggetwallpaper.github.io/zh-CN/): Nugget 壁纸简介与安装指南（简体中文）。
+- [हिन्दी](https://nuggetwallpaper.github.io/hi/): Nugget वॉलपेपर परिचय और इंस्टॉल गाइड।
+- [Español](https://nuggetwallpaper.github.io/es/): Introducción a Nugget Wallpaper y guía de instalación.
+- [Français](https://nuggetwallpaper.github.io/fr/): Présentation de Nugget Wallpaper et guide d'installation.
+- [العربية](https://nuggetwallpaper.github.io/ar/): مقدمة عن Nugget Wallpaper ودليل التثبيت.
+- [বাংলা](https://nuggetwallpaper.github.io/bn/): Nugget ওয়ালপেপার পরিচিতি ও ইনস্টল গাইড।
+- [Português](https://nuggetwallpaper.github.io/pt/): Introdução ao Nugget Wallpaper e guia de instalação.
+- [Русский](https://nuggetwallpaper.github.io/ru/): Описание Nugget Wallpaper и руководство по установке.
+- [اردو](https://nuggetwallpaper.github.io/ur/): Nugget وال پیپر کا تعارف اور انسٹال گائیڈ۔
+
+## Product data
+
+- Wallpaper gallery and downloads: [mwallx.com](https://mwallx.com/)
+- Install tutorial: [Nugget Host tutorial](https://nugget.host/tutorial/nugget)
+- Nugget tool (open source): [github.com/leminlimez/Nugget](https://github.com/leminlimez/Nugget)
+
+## Facts (verifiable)
+
+- Nugget Wallpaper requires the Nugget tool; no jailbreak is needed.
+- Supported versions: iOS and iPadOS 17 through 26 (up to iOS 26.1). The Nugget tool is NOT compatible with iOS 27.
+- Deployment: GitHub Pages static site; theme = dynamic/motion wallpapers.

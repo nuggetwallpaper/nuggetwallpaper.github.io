@@ -48,6 +48,8 @@
     "url": "https://nuggetwallpaper.github.io/pt/",
     "description": "Biblioteca selecionada de papéis de parede animados e em movimento para iPhone e iPad, instaláveis em iOS 17–26 com a ferramenta Nugget.",
     "inLanguage": "pt",
+    "datePublished": "2026-08-17T00:00:00Z",
+    "dateModified": "2026-08-17T00:00:00Z",
     "publisher": {
       "@type": "Organization",
       "name": "Nugget Wallpaper",
@@ -214,6 +216,37 @@
     }
     .spec b { color: var(--text); }
 
+    .updated { color: var(--muted); font-size: 12.5px; margin-top: 18px; }
+
+    .facts { display: grid; gap: 14px; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); }
+    .fact {
+      background: var(--card); border: 1px solid var(--line); border-radius: var(--radius);
+      padding: 18px 20px;
+    }
+    .fact b { display: block; font-size: 26px; color: var(--accent); letter-spacing: -0.02em; }
+    .fact span { display: block; color: var(--muted); font-size: 13.5px; margin-top: 4px; }
+    .fact cite { display: block; font-style: normal; font-size: 11.5px; color: var(--accent-2); margin-top: 8px; }
+
+    .cmp-wrap { overflow-x: auto; }
+    table.cmp {
+      width: 100%; border-collapse: collapse; background: var(--card);
+      border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden;
+      font-size: 14px; min-width: 560px;
+    }
+    table.cmp th, table.cmp td { padding: 13px 16px; text-align: left; border-bottom: 1px solid var(--line); }
+    table.cmp thead th { background: var(--bg-soft); color: var(--accent); font-weight: 700; }
+    table.cmp td { color: var(--muted); }
+    table.cmp td:first-child { color: var(--text); font-weight: 600; white-space: nowrap; }
+    table.cmp tbody tr:last-child td { border-bottom: none; }
+    .cmp-best { color: var(--accent) !important; font-weight: 700; }
+    .cmp-bottom { margin-top: 18px; background: rgba(99, 230, 190, 0.08); border: 1px solid rgba(99, 230, 190, 0.3); padding: 16px 20px; border-radius: var(--radius); font-size: 15px; }
+
+    .author-box {
+      margin-top: 30px; border-top: 1px solid var(--line); padding-top: 26px;
+      font-size: 13.5px; color: var(--muted);
+    }
+    .author-box b { color: var(--text); }
+
     .steps { counter-reset: step; display: grid; gap: 14px; }
     .step {
       background: var(--card); border: 1px solid var(--line); border-radius: var(--radius);
@@ -321,6 +354,7 @@
         <div class="spec"><b>Grátis</b> e premium</div>
         <div class="spec">Sem jailbreak</div>
       </div>
+      <p class="updated">🕒 Última atualização: 17 de agosto de 2026</p>
     </div>
   </section>
 
@@ -352,6 +386,21 @@
           <h3><a href="https://nugget.host/tutorial/nugget" rel="noopener">Guia passo a passo</a></h3>
           <p>Um tutorial de instalação para iniciantes, do backup a uma Tela de Bloqueio animada.</p>
         </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="facts" class="alt">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2>Fatos-chave sobre Nugget wallpaper</h2>
+        <p class="muted">Números verificados provenientes do repositório oficial do Nugget e da galeria do mwallx.com.</p>
+      </div>
+      <div class="facts">
+        <div class="fact"><b>iOS 17–26</b><span>versões do iOS compatíveis com papéis de parede animados</span><cite>Fonte: This page</cite></div>
+        <div class="fact"><b>7,000+</b><span>estrelas no GitHub da ferramenta open source Nugget</span><cite>Fonte: <a href="https://github.com/leminlimez/Nugget" rel="noopener">GitHub</a></cite></div>
+        <div class="fact"><b>10</b><span>idiomas disponíveis nesta página</span><cite>Fonte: This page</cite></div>
+        <div class="fact"><b>Grátis</b><span>para navegar e pré-visualizar cada papel no mwallx.com</span><cite>Fonte: <a href="https://mwallx.com/" rel="noopener">mwallx.com</a></cite></div>
       </div>
     </div>
   </section>
@@ -427,6 +476,35 @@
     </div>
   </section>
 
+  <section id="compare">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2>Nugget wallpaper frente ao iOS padrão e ao jailbreak</h2>
+        <p class="muted">Como os papéis animados Nugget se comparam ao papel integrado da Apple e a um jailbreak completo.</p>
+      </div>
+      <div class="cmp-wrap">
+        <table class="cmp">
+          <thead>
+            <tr>
+              <th>Abordagem</th>
+              <th>iOS padrão</th>
+              <th class="cmp-best">Nugget wallpaper</th>
+              <th>Jailbreak</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>Exige jailbreak</td><td>Não</td><td class="cmp-best">Não</td><td>Sim</td></tr>
+            <tr><td>Intervalo de iOS</td><td>Nativo (todos os dispositivos)</td><td class="cmp-best">Somente iOS 17 – 26</td><td>Varia, quebra com atualizações</td></tr>
+            <tr><td>Papéis animados</td><td>Não nativamente</td><td class="cmp-best">Sim, movimento e interativos</td><td>Sim</td></tr>
+            <tr><td>Risco de perda de dados</td><td>Nenhum</td><td class="cmp-best">Baixo — faça backup antes</td><td>Alto</td></tr>
+            <tr><td>Manutenção contínua</td><td>Nenhuma</td><td class="cmp-best">Nenhuma, baseada em instalador</td><td>Constante</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="cmp-bottom">Conclusão: para papéis de parede animados na tela de bloqueio sem jailbreak no iOS 17–26, Nugget wallpaper com a ferramenta Nugget é a escolha prática — basta fazer backup e evitar o iOS 27.</p>
+    </div>
+  </section>
+
   <section id="faq">
     <div class="wrap">
       <div class="sec-head">
@@ -488,6 +566,7 @@
       </div>
     </div>
     <p class="copy">Nugget wallpaper é um projeto comunitário. Este site apresenta a biblioteca Nugget wallpaper e aponta para o serviço oficial <a href="https://mwallx.com/" rel="noopener">mwallx.com</a>. Não afiliado à Apple Inc. © 2026 Nugget Wallpaper.</p>
+    <p class="author-box"><b>Sobre esta página</b> Um projeto comunitário que apresenta a biblioteca de Nugget wallpaper e aponta para o serviço oficial mwallx.com. A ferramenta Nugget é open source, criada por LeMinLimez, disponível no GitHub sob a licença AGPL-3.0.</p>
   </div>
 </footer>
 

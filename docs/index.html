@@ -48,6 +48,8 @@
     "url": "https://nuggetwallpaper.github.io/",
     "description": "Curated library of animated and motion wallpapers for iPhone and iPad, installable on iOS 17–26 with the Nugget tool.",
     "inLanguage": "en",
+    "datePublished": "2026-08-17T00:00:00Z",
+    "dateModified": "2026-08-17T00:00:00Z",
     "publisher": {
       "@type": "Organization",
       "name": "Nugget Wallpaper",
@@ -214,6 +216,37 @@
     }
     .spec b { color: var(--text); }
 
+    .updated { color: var(--muted); font-size: 12.5px; margin-top: 18px; }
+
+    .facts { display: grid; gap: 14px; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); }
+    .fact {
+      background: var(--card); border: 1px solid var(--line); border-radius: var(--radius);
+      padding: 18px 20px;
+    }
+    .fact b { display: block; font-size: 26px; color: var(--accent); letter-spacing: -0.02em; }
+    .fact span { display: block; color: var(--muted); font-size: 13.5px; margin-top: 4px; }
+    .fact cite { display: block; font-style: normal; font-size: 11.5px; color: var(--accent-2); margin-top: 8px; }
+
+    .cmp-wrap { overflow-x: auto; }
+    table.cmp {
+      width: 100%; border-collapse: collapse; background: var(--card);
+      border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden;
+      font-size: 14px; min-width: 560px;
+    }
+    table.cmp th, table.cmp td { padding: 13px 16px; text-align: left; border-bottom: 1px solid var(--line); }
+    table.cmp thead th { background: var(--bg-soft); color: var(--accent); font-weight: 700; }
+    table.cmp td { color: var(--muted); }
+    table.cmp td:first-child { color: var(--text); font-weight: 600; white-space: nowrap; }
+    table.cmp tbody tr:last-child td { border-bottom: none; }
+    .cmp-best { color: var(--accent) !important; font-weight: 700; }
+    .cmp-bottom { margin-top: 18px; background: rgba(99, 230, 190, 0.08); border: 1px solid rgba(99, 230, 190, 0.3); padding: 16px 20px; border-radius: var(--radius); font-size: 15px; }
+
+    .author-box {
+      margin-top: 30px; border-top: 1px solid var(--line); padding-top: 26px;
+      font-size: 13.5px; color: var(--muted);
+    }
+    .author-box b { color: var(--text); }
+
     .steps { counter-reset: step; display: grid; gap: 14px; }
     .step {
       background: var(--card); border: 1px solid var(--line); border-radius: var(--radius);
@@ -321,6 +354,7 @@
         <div class="spec"><b>Free</b> &amp; Premium</div>
         <div class="spec">No Jailbreak</div>
       </div>
+      <p class="updated">🕒 Last updated: August 17, 2026</p>
     </div>
   </section>
 
@@ -356,6 +390,21 @@
           <h3><a href="https://nugget.host/tutorial/nugget" rel="noopener">Step-by-Step Guide</a></h3>
           <p>A beginner-friendly install tutorial that takes you from backup to a live animated Lock Screen.</p>
         </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="facts" class="alt">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2>Nugget wallpaper key facts</h2>
+        <p class="muted">Verified figures cited from the official Nugget repository and the mwallx.com gallery.</p>
+      </div>
+      <div class="facts">
+        <div class="fact"><b>iOS 17–26</b><span>iOS versions supported for animated wallpapers</span><cite>Source: this page</cite></div>
+        <div class="fact"><b>7,000+</b><span>GitHub stars for the open-source Nugget tool</span><cite>Source: <a href="https://github.com/leminlimez/Nugget" rel="noopener">GitHub</a></cite></div>
+        <div class="fact"><b>10</b><span>Languages available on this page</span><cite>Source: this page</cite></div>
+        <div class="fact"><b>Free</b><span>to browse and preview every wallpaper on mwallx.com</span><cite>Source: <a href="https://mwallx.com/" rel="noopener">mwallx.com</a></cite></div>
       </div>
     </div>
   </section>
@@ -431,6 +480,35 @@
     </div>
   </section>
 
+  <section id="compare">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2>Nugget wallpaper vs stock iOS vs jailbreak</h2>
+        <p class="muted">How animated Nugget wallpapers compare with Apple's built-in wallpaper and a full jailbreak.</p>
+      </div>
+      <div class="cmp-wrap">
+        <table class="cmp">
+          <thead>
+            <tr>
+              <th>Approach</th>
+              <th>Stock iOS</th>
+              <th class="cmp-best">Nugget wallpaper</th>
+              <th>Jailbreak</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>Jailbreak required</td><td>No</td><td class="cmp-best">No</td><td>Yes</td></tr>
+            <tr><td>iOS range</td><td>Native (all devices)</td><td class="cmp-best">iOS 17 – 26 only</td><td>Varies, breaks on updates</td></tr>
+            <tr><td>Animated wallpapers</td><td>Not natively</td><td class="cmp-best">Yes, motion &amp; interactive</td><td>Yes</td></tr>
+            <tr><td>Data-loss risk</td><td>None</td><td class="cmp-best">Low — back up first</td><td>High</td></tr>
+            <tr><td>Ongoing maintenance</td><td>None</td><td class="cmp-best">None, installer-based</td><td>Constant</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="cmp-bottom">Bottom line: for animated, no-jailbreak lock screen wallpapers on iOS 17–26, Nugget wallpaper with the Nugget tool is the practical choice — just back up your device and avoid iOS 27.</p>
+    </div>
+  </section>
+
   <section id="faq">
     <div class="wrap">
       <div class="sec-head">
@@ -491,6 +569,7 @@
       </div>
     </div>
     <p class="copy">Nugget wallpaper is a community project. This site introduces the Nugget wallpaper library and links to the official <a href="https://mwallx.com" rel="noopener">mwallx.com</a> service. Not affiliated with Apple Inc. © 2026 Nugget Wallpaper.</p>
+    <p class="author-box"><b>About this page</b> A community project introducing the Nugget wallpaper library and linking to the official mwallx.com service. The Nugget tool is open source by LeMinLimez, available on GitHub under the AGPL-3.0 license.</p>
   </div>
 </footer>
 
