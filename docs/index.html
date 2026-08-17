@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nugget Wallpaper — Animated &amp; Motion Wallpapers for iPhone (iOS 17–26)</title>
+  <meta name="description" content="Nugget wallpaper library: curated animated and motion wallpapers for iPhone and iPad, installable on iOS 17 – iOS 26 with the Nugget tool. Browse, preview and download free and premium dynamic wallpapers." />
+  <link rel="canonical" href="https://nuggetwallpaper.github.io/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Nugget Wallpaper — Animated &amp; Motion Wallpapers for iPhone (iOS 17–26)" />
+  <meta property="og:description" content="Curated dynamic and motion wallpapers for iPhone/iPad. Install on iOS 17–26 with the Nugget tool. Free and premium wallpaper library." />
+  <meta property="og:url" content="https://nuggetwallpaper.github.io/" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="robots" content="index, follow" />
+  <link rel="icon" type="image/png" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%23111827'/><rect x='26' y='38' width='48' height='36' rx='8' fill='none' stroke='%2363e6be' stroke-width='5'/><circle cx='40' cy='82' r='3.5' fill='%2363e6be'/><circle cx='62' cy='82' r='3.5' fill='%2363e6be'/></svg>" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Nugget Wallpaper",
+    "alternateName": "Motion Wallpaper for Nugget",
+    "url": "https://nuggetwallpaper.github.io/",
+    "description": "Curated library of animated and motion wallpapers for iPhone and iPad, installable on iOS 17–26 with the Nugget tool.",
+    "inLanguage": "en",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Nugget Wallpaper",
+      "sameAs": ["https://mwallx.com/", "https://x.com/nuggetwallpaper", "https://www.tiktok.com/@nugget_wallpaper"]
+    }
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What is a Nugget wallpaper?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "A Nugget wallpaper is an animated or motion wallpaper for iPhone and iPad that is installed with the Nugget tool, an open-source iOS customization utility. Nugget wallpapers go far beyond a still lock-screen image — they can animate, react, and move right on your Home Screen and Lock Screen."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What iOS versions does a Nugget wallpaper support?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Nugget wallpapers support iOS and iPadOS 17 through 26, plus generic platforms. Do not use the Nugget tool on iOS 27 — Apple has patched the restore method and it may cause data loss."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How do I install a Nugget wallpaper on my iPhone?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Download the Nugget tool on a Windows, macOS or Linux PC, back up your device, then connect your iPhone or iPad. Nugget uses the sparserestore/BookRestore method to enable PosterBoard, which lets you install animated community wallpapers. Step-by-step tutorials are available at Nugget Host."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is Nugget safe to use on my iPhone?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Nugget works without a full jailbreak using the sparserestore and BookRestore methods. Always back up your data before using it, and follow the official guide. Nuggetwallpaper.github.io only provides wallpaper downloads — installation guidance comes from the official Nugget documentation."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Does the Nugget wallpaper library offer free wallpapers?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. The Nugget wallpaper library on mwallx.com includes both free and premium curated wallpapers across anime, sports, music, 3D and lifestyle categories, with animated GIF previews so you can see the motion before you install."
+        }
+      }
+    ]
+  }
+  </script>
+  <style>
+    :root {
+      --bg: #0d1322;
+      --bg-soft: #131b30;
+      --card: #1a2340;
+      --line: #26304f;
+      --text: #e8ecf8;
+      --muted: #9aa7c7;
+      --accent: #63e6be;
+      --accent-2: #7aa2ff;
+      --radius: 14px;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      background: linear-gradient(180deg, #0d1322 0%, #111a30 100%);
+      color: var(--text);
+      line-height: 1.65;
+      -webkit-font-smoothing: antialiased;
+    }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .wrap { max-width: 860px; margin: 0 auto; padding: 0 20px; }
+
+    header.site {
+      padding: 22px 0;
+      border-bottom: 1px solid var(--line);
+      backdrop-filter: blur(8px);
+      position: sticky;
+      top: 0;
+      background: rgba(13, 19, 34, 0.85);
+      z-index: 10;
+    }
+    .brand { display: flex; align-items: center; gap: 10px; font-weight: 700; font-size: 17px; }
+    .brand svg { flex-shrink: 0; }
+    nav.site { display: flex; gap: 18px; align-items: center; margin-left: auto; font-size: 14px; }
+    nav.site a { color: var(--muted); font-weight: 500; }
+    nav.site a:hover { color: var(--text); text-decoration: none; }
+    nav.site a.cta {
+      background: var(--accent); color: #0d1322; padding: 7px 14px; border-radius: 999px; font-weight: 700;
+    }
+    nav.site a.cta:hover { background: #7ef0cc; }
+
+    .hero { padding: 64px 0 40px; text-align: center; }
+    .eyebrow {
+      display: inline-block; font-size: 13px; letter-spacing: 0.08em; text-transform: uppercase;
+      color: var(--accent); border: 1px solid rgba(99, 230, 190, 0.35); background: rgba(99, 230, 190, 0.08);
+      padding: 5px 14px; border-radius: 999px; margin-bottom: 20px;
+    }
+    h1 { font-size: clamp(30px, 5vw, 44px); line-height: 1.15; letter-spacing: -0.02em; }
+    h1 .soft { color: var(--accent); }
+    h2 { font-size: clamp(22px, 3vw, 30px); letter-spacing: -0.01em; margin-bottom: 14px; }
+    h3 { font-size: 18px; margin-bottom: 8px; }
+    .sub { color: var(--muted); max-width: 640px; margin: 18px auto 0; font-size: 17px; }
+    .cta-row { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; margin-top: 28px; }
+    .btn {
+      display: inline-block; padding: 12px 24px; border-radius: 999px; font-weight: 700; font-size: 15px;
+      transition: transform 0.15s ease, background 0.15s ease;
+    }
+    .btn:hover { text-decoration: none; transform: translateY(-1px); }
+    .btn-primary { background: var(--accent); color: #0d1322; }
+    .btn-primary:hover { background: #7ef0cc; }
+    .btn-ghost { border: 1px solid var(--line); color: var(--text); }
+    .btn-ghost:hover { border-color: var(--accent); }
+
+    section { padding: 52px 0; }
+    section.alt { background: var(--bg-soft); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+    .sec-head { text-align: center; margin-bottom: 34px; }
+    .sec-head .muted { color: var(--muted); max-width: 620px; margin: 8px auto 0; }
+
+    .grid { display: grid; gap: 16px; }
+    .grid-3 { grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); }
+    .feature, .cat {
+      background: var(--card); border: 1px solid var(--line); border-radius: var(--radius);
+      padding: 22px; transition: border-color 0.2s ease, transform 0.2s ease;
+    }
+    .feature:hover, .cat:hover { border-color: rgba(99, 230, 190, 0.5); transform: translateY(-2px); }
+    .feature .ic { font-size: 22px; margin-bottom: 10px; display: inline-block; }
+    .feature p, .cat p { color: var(--muted); font-size: 14.5px; margin-top: 6px; }
+    .feature a, .cat a { color: var(--text); font-weight: 600; }
+    .feature a:hover, .cat a:hover { color: var(--accent); text-decoration: none; }
+
+    .specs { display: flex; gap: 14px; flex-wrap: wrap; justify-content: center; margin-top: 8px; }
+    .spec {
+      background: var(--card); border: 1px solid var(--line); border-radius: 999px;
+      padding: 8px 18px; font-size: 14px; color: var(--muted);
+    }
+    .spec b { color: var(--text); }
+
+    .steps { counter-reset: step; display: grid; gap: 14px; }
+    .step {
+      background: var(--card); border: 1px solid var(--line); border-radius: var(--radius);
+      padding: 18px 20px 18px 64px; position: relative;
+    }
+    .step::before {
+      counter-increment: step; content: counter(step);
+      position: absolute; left: 20px; top: 18px;
+      width: 30px; height: 30px; border-radius: 50%;
+      background: rgba(99, 230, 190, 0.12); border: 1px solid rgba(99, 230, 190, 0.4);
+      color: var(--accent); display: grid; place-items: center; font-weight: 700; font-size: 14px;
+    }
+    .step p { color: var(--muted); font-size: 14.5px; margin-top: 4px; }
+
+    .cats { display: grid; gap: 12px; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); }
+    .cat { text-align: center; }
+    .cat .badge { font-size: 12px; color: var(--accent); border: 1px solid rgba(99,230,190,.35); padding: 2px 10px; border-radius: 999px; display: inline-block; margin-bottom: 8px; }
+
+    details { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 18px 20px; margin-bottom: 12px; }
+    details summary { cursor: pointer; font-weight: 600; font-size: 16px; }
+    details summary::-webkit-details-marker { display: none; }
+    details summary::after { content: "+"; float: right; color: var(--accent); font-weight: 700; }
+    details[open] summary::after { content: "–"; }
+    details p { color: var(--muted); font-size: 15px; margin-top: 12px; }
+
+    .disclaimer {
+      background: rgba(122, 162, 255, 0.08); border: 1px solid rgba(122, 162, 255, 0.35);
+      border-radius: var(--radius); padding: 16px 20px; font-size: 14px; color: var(--muted);
+    }
+
+    footer.site { border-top: 1px solid var(--line); padding: 34px 0 48px; color: var(--muted); font-size: 14px; }
+    footer.site .cols { display: flex; gap: 32px; flex-wrap: wrap; justify-content: space-between; }
+    footer.site h4 { color: var(--text); font-size: 14px; margin-bottom: 10px; }
+    footer.site ul { list-style: none; }
+    footer.site li { margin-bottom: 8px; }
+    footer.site a { color: var(--muted); }
+    footer.site a:hover { color: var(--accent); text-decoration: none; }
+    footer.site .copy { margin-top: 28px; padding-top: 20px; border-top: 1px solid var(--line); font-size: 13px; }
+  </style>
+</head>
+<body>
+
+<header class="site">
+  <div class="wrap brand-row">
+    <div class="brand">
+      <svg width="30" height="30" viewBox="0 0 100 100" aria-hidden="true">
+        <rect width="100" height="100" rx="22" fill="#111827"/>
+        <rect x="26" y="36" width="48" height="38" rx="9" fill="none" stroke="#63e6be" stroke-width="5"/>
+        <rect x="34" y="52" width="18" height="8" rx="4" fill="#63e6be"/>
+        <circle cx="40" cy="82" r="3.5" fill="#63e6be"/>
+        <circle cx="62" cy="82" r="3.5" fill="#63e6be"/>
+      </svg>
+      Nugget Wallpaper
+    </div>
+    <nav class="site">
+      <a href="#about">About</a>
+      <a href="#catalog">Catalog</a>
+      <a href="#install">Install</a>
+      <a href="#faq">FAQ</a>
+      <a class="cta" href="https://mwallx.com/en/wallpapers" rel="noopener">Browse Wallpapers</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="wrap">
+      <span class="eyebrow">Motion Wallpaper for Nugget</span>
+      <h1>The <span class="soft">Nugget Wallpaper</span> Library<br />Animated Wallpapers for iPhone</h1>
+      <p class="sub">
+        Curated dynamic, animated and motion wallpapers for your iPhone and iPad.
+        Install them directly with the <strong>Nugget tool</strong>, no jailbreak required — compatible with iOS 17 through iOS 26.
+      </p>
+      <div class="cta-row">
+        <a class="btn btn-primary" href="https://mwallx.com/en/wallpapers" rel="noopener">Browse the Nugget Wallpaper Library →</a>
+        <a class="btn btn-ghost" href="https://nugget.host/tutorial/nugget" rel="noopener">Official Install Tutorial</a>
+      </div>
+      <div class="specs">
+        <div class="spec">Supports <b>iOS 17 – iOS 26</b></div>
+        <div class="spec">iPhone &amp; <b>iPad</b></div>
+        <div class="spec"><b>Free</b> &amp; Premium</div>
+        <div class="spec">No Jailbreak</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="alt">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2>What is a Nugget Wallpaper?</h2>
+        <p class="muted">Everything you need to know about putting animated wallpapers on your iPhone with the Nugget tool.</p>
+      </div>
+      <p>
+        A <strong>Nugget wallpaper</strong> is an animated, motion-based wallpaper for iPhone and iPad that you install using
+        <a href="https://github.com/leminlimez/Nugget" rel="noopener">Nugget</a> — an open-source iOS customization utility by LeMinLimez that uses the
+        sparserestore and BookRestore methods to modify Apple devices <em>without a full jailbreak</em>.
+      </p>
+      <p style="margin-top:14px;">
+        Instead of a static image behind your icons, a Nugget wallpaper can move, react and animate across your
+        Lock Screen and Home Screen. The <a href="https://mwallx.com/" rel="noopener">Nugget Wallpaper project</a> hosts a
+        curated library of these motion wallpapers, with live animated GIF previews on every page so you always know what you are installing.
+      </p>
+      <div class="grid grid-3" style="margin-top:30px;">
+        <div class="feature">
+          <span class="ic">🎞️</span>
+          <h3><a href="https://mwallx.com" rel="noopener">Motion Wallpaper Library</a></h3>
+          <p>Hundreds of curated dynamic wallpaper formats across anime, sports, music, 3D and lifestyle themes.</p>
+        </div>
+        <div class="feature">
+          <span class="ic">🖥️</span>
+          <h3><a href="https://github.com/leminlimez/Nugget" rel="noopener">Nugget Tool</a></h3>
+          <p>The open-source Windows / macOS app that applies animated wallpapers to your device — no jailbreak.</p>
+        </div>
+        <div class="feature">
+          <span class="ic">📱</span>
+          <h3><a href="https://nugget.host/tutorial/nugget" rel="noopener">Step-by-Step Guide</a></h3>
+          <p>A beginner-friendly install tutorial that takes you from backup to a live animated Lock Screen.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="catalog">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2>What's inside the Nugget wallpaper catalog</h2>
+        <p class="muted">Explore the Nugget wallpaper collection on mwallx.com — preview the motion before you download.</p>
+      </div>
+      <div class="cats">
+        <a class="cat" href="https://mwallx.com/en/wallpapers?keyword=anime" rel="noopener">
+          <span class="badge">Anime &amp; Manga</span>
+          <h3>Evangelion, Demon Slayer, Marvel</h3>
+          <p>Stunning animated wallpapers from your favorite series.</p>
+        </a>
+        <a class="cat" href="https://mwallx.com/en/wallpapers?keyword=football" rel="noopener">
+          <span class="badge">Sports</span>
+          <h3>Football &amp; Esports</h3>
+          <p>Team and player motion wallpapers, from Arsenal to FIFA 2026.</p>
+        </a>
+        <a class="cat" href="https://mwallx.com/en/wallpapers?keyword=3d" rel="noopener">
+          <span class="badge">3D &amp; Creative</span>
+          <h3>3D Faces &amp; Dream Scenes</h3>
+          <p>Depth-based 3D and dreamy planet wallpapers that feel alive.</p>
+        </a>
+        <a class="cat" href="https://mwallx.com/en/wallpapers?paymentType=free" rel="noopener">
+          <span class="badge">Free</span>
+          <h3>Free &amp; Premium</h3>
+          <p>Filter by free or premium to find exactly the Nugget wallpaper you want.</p>
+        </a>
+        <a class="cat" href="https://mwallx.com/en/wallpapers?wallpaperType=apple_official" rel="noopener">
+          <span class="badge">Official</span>
+          <h3>Apple-Format Wallpapers</h3>
+          <p>Wallpaper packs in the official format, plus Nugget community builds.</p>
+        </a>
+        <a class="cat" href="https://mwallx.com/en/wallpapers?sortBy=latest" rel="noopener">
+          <span class="badge">Fresh Drops</span>
+          <h3>New Every Week</h3>
+          <p>New Nugget wallpapers are added to the library all the time.</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section id="install" class="alt">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2>How to install a Nugget wallpaper</h2>
+        <p class="muted">Four simple steps from download to a moving Lock Screen.</p>
+      </div>
+      <div class="steps">
+        <div class="step">
+          <h3>Pick your wallpaper</h3>
+          <p>Browse the <a href="https://mwallx.com/en/wallpapers" rel="noopener">Nugget wallpaper library</a>, watch the animated GIF preview and download the pack.</p>
+        </div>
+        <div class="step">
+          <h3>Back up your device</h3>
+          <p>Connect your iPhone or iPad to a PC and create a full backup. Always back up before using any iOS modification tool.</p>
+        </div>
+        <div class="step">
+          <h3>Apply it with Nugget</h3>
+          <p>Run the Nugget app, load the wallpaper into the PosterBoard feature, and restore your device following the <a href="https://nugget.host/tutorial/nugget" rel="noopener">official tutorial</a>.</p>
+        </div>
+        <div class="step">
+          <h3>Enjoy the motion</h3>
+          <p>Your iPhone now runs a true animated wallpaper — pan, swipe and watch it come alive on the Lock Screen and Home Screen.</p>
+        </div>
+      </div>
+      <div class="disclaimer" style="margin-top:26px;">
+        <strong>Safety note:</strong> Nugget uses the sparserestore and BookRestore methods and is <strong>not compatible with iOS 27</strong> (Apple patched the restore method, and data loss is possible). Only install wallpapers you trust, follow the official guide, and always keep a backup.
+      </div>
+    </div>
+  </section>
+
+  <section id="faq">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2>Nugget wallpaper FAQ</h2>
+        <p class="muted">Quick answers to the questions people ask most about motion wallpapers for iPhone.</p>
+      </div>
+      <details open>
+        <summary>What is a Nugget wallpaper?</summary>
+        <p>A Nugget wallpaper is an animated or motion wallpaper for iPhone and iPad that is installed with the Nugget tool. Instead of a static lock-screen image, it can animate and move across your screen — something Apple doesn't offer natively.</p>
+      </details>
+      <details>
+        <summary>What iOS versions does a Nugget wallpaper support?</summary>
+        <p>Nugget wallpapers support iOS and iPadOS 17 through 26, plus generic platforms. Avoid iOS 27 entirely — Nugget's restore method is patched there and data loss is likely.</p>
+      </details>
+      <details>
+        <summary>How do I install a Nugget wallpaper on my iPhone?</summary>
+        <p>Download a wallpaper from the library, run the Nugget tool on Windows or macOS (Linux also works), and apply it via the PosterBoard feature. The full walkthrough is on <a href="https://nugget.host/tutorial/nugget" rel="noopener">Nugget Host</a>.</p>
+      </details>
+      <details>
+        <summary>Does installing a Nugget wallpaper require a jailbreak?</summary>
+        <p>No. Nugget works through the sparserestore and BookRestore non-jailbreak methods, so you can add animated wallpapers on a stock iPhone as long as you're on iOS 17–26.</p>
+      </details>
+      <details>
+        <summary>Are there free Nugget wallpapers?</summary>
+        <p>Yes. The library on <a href="https://mwallx.com" rel="noopener">mwallx.com</a> has both free and premium curated wallpapers, with animated GIF previews for every single one.</p>
+      </details>
+    </div>
+  </section>
+</main>
+
+<footer class="site">
+  <div class="wrap">
+    <div class="cols">
+      <div>
+        <h4>Nugget Wallpaper</h4>
+        <ul>
+          <li><a href="https://mwallx.com" rel="noopener">Wallpaper Library</a></li>
+          <li><a href="https://nugget.host/tutorial/nugget" rel="noopener">Install Tutorial</a></li>
+          <li><a href="https://github.com/leminlimez/Nugget" rel="noopener">Nugget on GitHub</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Follow</h4>
+        <ul>
+          <li><a href="https://www.tiktok.com/@nugget_wallpaper" rel="noopener">TikTok</a></li>
+          <li><a href="https://t.me/nugget_wallpaper" rel="noopener">Telegram</a></li>
+          <li><a href="https://x.com/nuggetwallpaper" rel="noopener">X (Twitter)</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Pages</h4>
+        <ul>
+          <li><a href="https://mwallx.com/en/price" rel="noopener">Pricing</a></li>
+          <li><a href="https://mwallx.com/en/orders" rel="noopener">Orders</a></li>
+          <li><a href="https://mwallx.com/en/privacy-policy" rel="noopener">Privacy</a></li>
+          <li><a href="https://mwallx.com/en/terms-of-service" rel="noopener">Terms</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="copy">Nugget wallpaper is a community project. This site introduces the Nugget wallpaper library and links to the official <a href="https://mwallx.com" rel="noopener">mwallx.com</a> service. Not affiliated with Apple Inc. © 2026 Nugget Wallpaper.</p>
+  </div>
+</footer>
+
+</body>
+</html>
